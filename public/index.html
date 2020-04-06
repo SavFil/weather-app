@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <h1>The Weather here</h1>
+    <a href="/">check in</a> | <a href="checkins/">view checkins</a>
+    <br>
+    <div>
+        The weather here at <span id="lat"></span>&deg;,
+        <span id="long"></span>&deg;
+        is <span id="weath"></span>,<br>
+        with a temperature of <span id="deg"></span>C&deg;. The
+        concentration of particulate matter (<span id="aq_parameter"></span>)
+        is <span id="aq_value"></span> <span id="aq_units"></span> last read
+        on <span id="aq_date"></span>.
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
